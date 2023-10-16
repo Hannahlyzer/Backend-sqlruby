@@ -9,7 +9,7 @@ sleep 1
 puts "Enter a number of decades"
 decades = gets.chomp
 decades = decades.to_i
-minutes = years * 365 * 24 * 60
+minutes = decades * 10 * 365 * 24 * 60
 puts "That's #{minutes} minutes."
 sleep 1
 
